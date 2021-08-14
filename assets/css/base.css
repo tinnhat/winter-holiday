@@ -1,0 +1,148 @@
+:root {
+  --primary-color: #3fd0d4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+.pad-left-40 {
+  padding-left: 40px;
+}
+.mau-primary {
+  color: #3fd0d4 !important;
+}
+.disable {
+  display: none !important;
+}
+@keyframes traiquaphai {
+  from {
+    opacity: 0;
+    width: 0%;
+  }
+  to {
+    opacity: 1;
+    width: 100%;
+  }
+}
+
+@keyframes truotxuong {
+  from {
+    transform: translateY(-14px);
+    opacity: 0.9;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes modalMobile {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes menumobile {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes naylen {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-4px);
+  }
+}
+@keyframes truottuduoilen {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.content-slider .owl-dots {
+  display: none;
+}
+
+.truotvao {
+  opacity: 1 !important;
+  transform: translateX(0%) !important;
+}
+
+.owl-next {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  /* transform: translateY(-50%); */
+  background-color: white !important;
+  border-radius: 50% !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  z-index: 4;
+  transition: 0.4s;
+}
+.owl-prev {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  /* transform: translateY(-50%); */
+  background-color: white !important;
+  z-index: 4;
+  border-radius: 50% !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s;
+}
+.icon-left,
+.icon-right {
+  color: var(--primary-color);
+}
+.owl-next:hover,
+.owl-prev:hover {
+  background-color: var(--primary-color) !important;
+}
+.owl-next:hover .icon-right,
+.owl-prev:hover .icon-left {
+  color: white;
+}
+.content-slider .owl-item.active .content-slider-name {
+  animation: fadeInUp ease 0.8s;
+}
+.content-slider .owl-item.active .content-slider-title {
+  animation: fadeInUp ease 1s;
+}
+.content-slider .owl-item.active .content-slider-text {
+  animation: fadeInUp ease 1.2s;
+}
+@keyframes animation_hinh {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.01);
+  }
+}

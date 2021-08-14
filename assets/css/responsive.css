@@ -1,0 +1,268 @@
+/* mobile và table */
+@media only screen and (max-width: 63.9375em) {
+  .header {
+    background-color: var(--primary-color);
+    justify-content: space-around;
+  }
+  .header-mobile-logolink {
+    display: block;
+  }
+
+  .header-mobile-menu,
+  .header-mobile-user,
+  .header-mobile-logo-img {
+    display: block;
+  }
+  .header-logo {
+    display: none;
+  }
+  .header-list {
+    display: none;
+  }
+  .header-icon-menu {
+    display: none;
+  }
+  .owl-prev,
+  .owl-next {
+    display: none !important;
+  }
+}
+/* Mobile: width < 740px */
+@media only screen and (max-width: 46.1875em) {
+  .btn-buy,
+  .btn-related {
+    display: none;
+  }
+  .content-slider-text {
+    display: none;
+  }
+  .content-slider-name {
+    font-size: 20px;
+  }
+  .content-slider-title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .clip-youtube {
+    width: 90%;
+    height: 220px;
+  }
+  .content-top-review-title {
+    white-space: nowrap;
+    font-size: 40px;
+  }
+  .content-holiday-text,
+  .content-top-review-text,
+  .content-sport-title-text {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .content-top-review-box {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .content-holiday-row {
+    flex-direction: column;
+  }
+  .content-slider-ski-box {
+    padding: 0;
+  }
+  .content-slider-ski-row {
+    flex-direction: column;
+  }
+  #owl-demo3 .owl-dots {
+    display: none;
+  }
+  .content-slider-ski-number {
+    font-size: 50px;
+  }
+  .content-resort-row {
+    flex-direction: column;
+  }
+  .content-resort-box-img {
+    width: auto;
+    height: auto;
+  }
+  .register {
+    width: 90%;
+  }
+  .text-policy {
+    margin-bottom: 10px;
+    white-space: nowrap;
+  }
+  .content-slider-1,
+  .content-slider-2 {
+    margin-top: 54px;
+  }
+  .footer-col-heading {
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  .footer-col-location {
+    margin-top: 16px;
+  }
+}
+
+/* Tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+  .content-resort-box-icon {
+    right: 100px;
+    top: 4%;
+  }
+  .header {
+    background-color: var(--primary-color);
+    justify-content: space-around;
+  }
+  .header-mobile-logolink {
+    display: block;
+  }
+
+  .header-mobile-menu,
+  .header-mobile-user,
+  .header-mobile-logo-img {
+    display: block;
+  }
+  .header-logo {
+    display: none;
+  }
+  .header-list {
+    display: none;
+  }
+  .header-icon-menu {
+    display: none;
+  }
+  .owl-prev,
+  .owl-next {
+    display: none !important;
+  }
+  .content-resort-box-img {
+    width: 280px;
+    height: 280px;
+  }
+  .content-resort-location {
+    font-size: 36px;
+  }
+  .content-holiday-row {
+    flex-direction: column;
+  }
+
+  .content-slider-ski-box {
+    padding: 0 40px;
+  }
+  .content-top-review-box {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .content-top-review-right-des {
+    margin: 10px;
+  }
+  #owl-demo3 .owl-dots {
+    display: none;
+  }
+
+  .owl-theme .owl-dots .owl-dot span {
+    width: 16px;
+    height: 16px;
+  }
+  .matop-40 {
+    margin-top: 40px;
+  }
+
+  .input-footer-mail {
+    top: 75px;
+  }
+  .content-resort-row {
+    flex-direction: column;
+  }
+  .content-resort-box-icon {
+    right: 34%;
+    top: -2px;
+  }
+  .content-slider-title {
+    font-size: 62px;
+    line-height: 80px;
+  }
+  .content-slider-text {
+    font-size: 18px;
+  }
+  .clip-youtube {
+    width: 60%;
+    height: 320px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+  .header {
+    background-color: var(--primary-color);
+    justify-content: space-around;
+  }
+  .header-mobile-logolink {
+    display: block;
+  }
+
+  .header-mobile-menu,
+  .header-mobile-user,
+  .header-mobile-logo-img {
+    display: block;
+  }
+  .header-logo {
+    display: none;
+  }
+  .header-list {
+    display: none;
+  }
+
+  .header-icon-menu {
+    display: none;
+  }
+  .owl-prev,
+  .owl-next {
+    display: none !important;
+  }
+  .content-resort-box-img {
+    width: 280px;
+    height: 280px;
+  }
+  .content-resort-location {
+    font-size: 36px;
+  }
+  .content-holiday-row {
+    flex-direction: column;
+  }
+
+  .content-slider-ski-box {
+    padding: 0 40px;
+  }
+  .content-top-review-box {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .content-top-review-right-des {
+    margin: 10px;
+  }
+  #owl-demo3 .owl-dots {
+    display: none;
+  }
+
+  .owl-theme .owl-dots .owl-dot span {
+    width: 16px;
+    height: 16px;
+  }
+  .matop-40 {
+    margin-top: 40px;
+  }
+  .input-footer {
+    margin: 6px 0;
+  }
+  .btn-footer {
+    margin-top: 6px;
+  }
+  .input-footer-mail {
+    top: 75px;
+  }
+}
