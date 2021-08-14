@@ -931,7 +931,7 @@
   top: 2%;
 }
 .content-resort-box-img {
-  position: relative;
+  /* position: relative; */
 }
 .content-resort-img-link::after {
   content: "";

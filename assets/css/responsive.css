@@ -103,12 +103,16 @@
   .footer-col-location {
     margin-top: 16px;
   }
+  .content-resort-box-icon {
+    right: 13%;
+    top: 4%;
+  }
 }
 
 /* Tablet: width >= 740px and width < 1024px */
 @media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
   .content-resort-box-icon {
-    right: 100px;
+    right: 10%;
     top: 4%;
   }
   .header {
