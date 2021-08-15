@@ -1126,6 +1126,7 @@
 .list-item-link {
   text-decoration: none;
   color: black;
+  margin: 0;
 }
 .subnav-home,
 .subnav-page,
@@ -1141,13 +1142,15 @@
   display: none;
 }
 .subnav-item {
-  padding: 10px 0;
   border-bottom: 1px solid #ebebeb !important;
 }
 .subnav-item-link {
   text-decoration: none;
   color: black;
   display: block;
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 6px;
 }
 
 .menu-list-item:hover .list-item-link,
