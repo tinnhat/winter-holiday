@@ -5,6 +5,7 @@ document.addEventListener(
     let text_nutRelated = document.querySelector(".btn-release-text");
     let text_nutBuy = document.querySelector(".btn-buy-text");
     window.addEventListener("scroll", function () {
+      menuFind.classList.remove("truotvao");
       if (window.pageYOffset > 600) {
         text_nutRelated.classList.add("disable");
         text_nutBuy.classList.add("disable");
@@ -43,10 +44,15 @@ menu.onclick = () => {
 nutclose.onclick = () => {
   menuFind.classList.remove("truotvao");
 };
-window.addEventListener("scroll", function () {
-  if (menuFind.classList.contains("truotvao")) {
-    menuFind.classList.remove("truotvao");
-  }
+$(".header-menu-nav").click(function (e) {
+  $(".menu-find").show();
+  e.stopPropagation();
+});
+$(".menu-find").click(function (e) {
+  e.stopPropagation();
+});
+$(document).click(function (e) {
+  $(".menu-find").hide();
 });
 
 //đếm số
